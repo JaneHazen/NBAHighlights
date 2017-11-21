@@ -32,7 +32,7 @@ class Home extends Component {
       <div>
         <Featured slides={this.state.home.slider}/>
         <Subscriptions/>
-        <Blocks/>
+        <Blocks blocks={this.state.home.blocks}/>
       </div>
       )
   }
