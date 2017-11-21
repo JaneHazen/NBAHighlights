@@ -14,7 +14,7 @@ const generateSlides = ({slides}) => {
   if(slides){
     return(
         <Slider {...settings}>
-          {slides.map((item)=>{
+          {slides.map(function(item){
             return(
                 <div key={item.id} className="item-slider" style={{background:`url(/images/covers/${item.cover})`}}>
                     <div className="caption">
