@@ -5,6 +5,8 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
+import Teams from './teams'
+import TEam from './team'
 
 class App extends Component {
   render(){
@@ -13,6 +15,8 @@ class App extends Component {
         <div>
           <Header/>
           <Route exact path="/" component={Home}/>
+          <Route exact path="/teams" component={Teams}/>
+          <Route exact path="/team/:id" component={Team}/>
           <Footer/>
         </div>
       </BrowserRouter>
