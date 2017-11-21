@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
 import Teams from './teams'
-import TEam from './team'
+import Team from './team'
 
 class App extends Component {
   render(){
