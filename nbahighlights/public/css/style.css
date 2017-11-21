@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding:0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: #1b1b1b;
 }
 
@@ -16,16 +16,16 @@ a {
 }
 
 h3 {
-  font-family: 'Fjalla One';
+  font-family: 'Fjalla One', sans-serif;
   font-size: 35px;
   font-weight: 300;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 h4 {
-  font-family: 'Fjalla One';
+  font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
-  margin: 15px 0 5px;
+  margin: 15px 0px 5px;
 }
 
 /*HEADER&FOOTER*/
@@ -38,7 +38,7 @@ header, footer {
   background: #fff;
   align-items: center;
   padding: 10px;
-  font-family: 'Fjalla One';
+  font-family: 'Fjalla One', sans-serif;
 }
 
 header .logo,
@@ -67,7 +67,7 @@ footer {
   background-size:cover !important;
   background-position: center center !important;
   position: relative;
-  font-family: 'Fjalla One';
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .item-slider .caption {
@@ -99,10 +99,10 @@ footer {
 }
 
 .subscribe_panel h3 {
-  font-family: 'Fjalla One';
+  font-family: 'Fjalla One', sans-serif;
   font-size: 35px;
   font-weight: 300;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .subscribe_panel input {
@@ -111,7 +111,7 @@ footer {
   text-align: center;
   font-size: 23px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
 
 .subscribe_panel input:focus {
